@@ -1,0 +1,530 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/*-----*--*----*--*----*---*PANTALLA GRANDE-*----*--*----*-----*----*---*/
+/*----------------------------
+/*--------------banner----------
+/*-----------------------------*/
+.banner {
+  width: 100%;
+  height: 100vh;
+  max-height: 100%;
+  min-height: 50%;
+  background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.88), rgba(55, 114, 255, 0.71)),
+    url("../assets/imgs/fondo-banner.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+}
+
+.banner nav {
+  height: 100px;
+}
+
+.banner .nav-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner .nav-wrapper ul li {
+  padding: 40px 20px;
+  font-family: "Poppins", Arial;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 22px;
+  letter-spacing: 1px;
+  text-align: center;
+  background-color: transparent;
+  transition: all 600ms ease;
+}
+
+.banner .nav-wrapper ul li:hover {
+  padding: 40px 20px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+}
+
+.banner .contenedor-banner-logo {
+  width: 100%;
+  margin-top: 10%;
+}
+
+.banner .contenedor-banner-logo img {
+  width: 600px;
+  height: auto;
+}
+
+.banner .contenedor-banner-titulo {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px 10px;
+  border-radius: 10px;
+  width: auto;
+  margin: 30px 10%;
+}
+
+.banner .contenedor-banner-titulo h1 {
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: "Roboto", sans-serif;
+  color: white;
+}
+
+.banner .contenedor-banner-sociales {
+  width: 60%;
+  margin: 5px auto;
+}
+
+.icono-rs {
+  width: 30px;
+  margin: 0 15px;
+}
+
+.icono-rs:hover {
+  transform: scale(1.5) rotate(360deg);
+  transition: transform 0.6s ease;
+}
+
+/*----------------------------
+/*---------video y descripcion--
+/*-----------------------------*/
+.descripcion-titulo {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.descripcion-boton {
+  margin: 20px;
+  font-family: "Open Sans", Arial, sans-serif;
+  font-weight: 300;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+}
+
+.divider {
+  margin: 10px 0;
+}
+
+.descripcion-subtitulo {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.descripcion-parrafo blockquote,
+.descripcion-lista ul {
+  font-weight: 300;
+  font-family: "Oxygen", sans-serif;
+  line-height: 22px;
+  font-size: 16px;
+  letter-spacing: 0.5px;
+  text-align: justify;
+}
+
+.descripcion-parrafo blockquote {
+  border-left: 5px solid #0d1b1e;
+}
+
+.descripcion-lista ul li {
+  margin-top: 8px;
+}
+
+.descripcion-lista ul span {
+  font-weight: 700;
+  font-size: 16px;
+}
+
+/*---------------------------
+/*----------------formulario-
+/*---------------------------*/
+.section-form {
+  background: url(../assets/imgs/Imagen-form-SaludArg.jpg);
+  padding: 5% 15%;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.contenedor-form {
+  background-color: rgba(0, 0, 0, 0.48);
+  padding: 2% 10%;
+  border-radius: 5px;
+}
+
+.contenedor-form h3 {
+  margin: 14px 0;
+  font-family: arial;
+  font-size: 32px;
+  line-height: 36px;
+  color: white;
+}
+
+.contenedor-form h4 {
+  margin-bottom: 14px;
+  font-family: arial;
+  font-size: 20px;
+  font-weight: 300;
+  letter-spacing: 1px;
+  line-height: 22px;
+  color: white;
+}
+
+.form {
+  width: 440px;
+  height: 400px;
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0 0 40px -10px #000;
+  margin: 0 auto;
+  padding: 20px 30px;
+  font-family: sans-serif;
+}
+
+.form input {
+  width: 100%;
+  padding-bottom: 10px;
+  resize: none;
+  border: 0;
+  font-family: sans-serif;
+  font-size: 16px;
+  transition: all 0.3s;
+  border-bottom: 2px solid #bebed2;
+  border-radius: 6px;
+}
+
+.form input:focus {
+  border-bottom: 2px solid darkslategray;
+  border-radius: 6px;
+}
+
+.form p:before {
+  content: attr(type);
+  display: block;
+  margin: 20px 0;
+  font-size: 18px;
+  color: black;
+}
+
+.form button {
+  float: right;
+  padding: 8px 12px;
+  margin-top: 20px;
+  margin-right: 10px;
+  font-family: sans-serif;
+  border: 1px solid #78788c;
+  background: 0;
+  color: #5a5a6e;
+  text-align: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s;
+  border-radius: 4px;
+}
+
+.form button:hover {
+  background-color: darkslategrey;
+  color: white;
+  border-bottom: 5px;
+}
+
+#form_btn_listo {
+  border-bottom: 3px solid #c6ff00;
+}
+
+#form_btn_restablecer {
+  border-bottom: 3px solid #ffab91;
+}
+
+/*----------------------------
+/*-------------pie de pagina--
+/*-----------------------------*/
+div#contenedor-btn-sociales ul li {
+  display: inline;
+}
+
+.footer-seccion-contacto .container a,
+.footer-seccion-contacto p {
+  margin-top: 10px;
+}
+
+/*-----*--*----*--*----*---*TABLET-*----*--*----*-----*----*---*/
+@media screen and (max-width: 768px) {
+  /*----------------------------
+    /*--------------banner----------
+    /*-----------------------------*/
+  .banner {
+    height: 90%;
+  }
+
+  .banner .transparent .nav-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0px 10px;
+  }
+
+  .banner .contenedor-banner-logo {
+    margin-top: 8%;
+  }
+
+  .banner .contenedor-banner-logo img {
+    width: 400px;
+  }
+
+  .banner .contenedor-banner-titulo {
+    padding: 10px 10px;
+    margin: 20px 10%;
+  }
+
+  .banner .contenedor-banner-titulo h1 {
+    font-size: 30px;
+  }
+
+  .banner .contenedor-banner-sociales {
+    width: 60%;
+    margin: 30px auto;
+  }
+
+  .icono-rs {
+    width: 32px;
+  }
+
+  /*----------------------------
+    /*---------video y descripcion--
+    /*-----------------------------*/
+  .descripcion-titulo {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 35px;
+  }
+
+  .descripcion-boton {
+    margin: 20px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  .divider {
+    margin: 5px 0;
+  }
+
+  .descripcion-subtitulo {
+    margin-top: 15px;
+    margin-bottom: 10px;
+  }
+
+  .descripcion-lista ul {
+    margin-top: 8px;
+    padding: 0px 15px;
+  }
+
+  .descripcion-lista ul li {
+    margin-top: 8px;
+  }
+
+  .descripcion-lista ul span {
+    font-weight: 700;
+    font-size: 16px;
+  }
+
+  /*---------------------------
+    /*----------------formulario-
+    /*---------------------------*/
+  .section-form {
+    padding: 5% 8%;
+  }
+
+  .contenedor-form h3 {
+    font-size: 28px;
+  }
+
+  .contenedor-form h4 {
+    font-size: 18px;
+  }
+
+  .form {
+    width: 60vw;
+    height: 350px;
+    padding: 20px 10px;
+  }
+
+  .form input {
+    padding-bottom: 6px;
+    font-size: 14px;
+  }
+
+  .form p:before {
+    margin-top: 20px;
+    margin-bottom: 12px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .form button {
+    width: auto;
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 14px;
+  }
+
+  /*----------------------------
+    /*-------------pie de pagina--
+    /*-----------------------------*/
+  div#contenedor-btn-sociales {
+    margin: 14px 0px;
+  }
+
+  div#contenedor-btn-sociales ul li {
+    display: inline;
+  }
+
+  .footer-seccion-contacto .container a,
+  .footer-seccion-contacto p {
+    margin-top: 10px;
+  }
+}
+
+/*-----*--*----*--*----*---*CELULAR-*----*--*----*-----*----*---*/
+@media screen and (max-width: 420px) {
+  /*----------------------------
+    /*--------------banner----------
+    /*-----------------------------*/
+  .banner {
+    height: 50vh;
+  }
+
+  .banner nav {
+    height: 70px;
+  }
+
+  .banner .contenedor-banner-logo {
+    margin-top: 80px;
+  }
+
+  .banner .contenedor-banner-logo img {
+    width: 170px;
+    height: auto;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-right: 10px;
+    margin-top: 16px;
+  }
+
+  .banner .contenedor-banner-titulo {
+    height: auto;
+    width: auto;
+    padding: 8px 8px;
+    margin: 8px 8%;
+  }
+
+  .banner .contenedor-banner-titulo h1 {
+    font-size: 18px;
+    line-height: normal;
+    margin: 0;
+  }
+
+  .banner .contenedor-banner-sociales {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    height: auto;
+    margin: 8px 3%;
+    width: auto;
+  }
+
+  .icono-rs {
+    width: 24px;
+    height: auto;
+    margin: 0 4px;
+  }
+
+  /*----------------------------
+    /*---------video y descripcion--
+    /*-----------------------------*/
+  .descripcion-titulo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-size: 28px;
+  }
+
+  .descripcion-boton {
+    margin: 20px;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 300;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+  }
+
+  .descripcion-subtitulo {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 20px;
+  }
+
+  .descripcion-parrafo blockquote,
+  .descripcion-lista ul {
+    line-height: 20px;
+    font-size: 14px;
+    text-align: left;
+    margin: 0;
+  }
+
+  .descripcion-parrafo blockquote {
+    border-left: 3px solid #0d1b1e;
+  }
+
+  /*---------------------------
+    /*----------------formulario-
+    /*---------------------------*/
+  .section-form {
+    padding: 0;
+    background: #828a95;
+  }
+
+  .contenedor-form h3 {
+    font-size: 20px;
+    line-height: normal;
+    text-decoration: underline;
+  }
+
+  .contenedor-form h4 {
+    font-size: 16px;
+    line-height: normal;
+  }
+
+  .form {
+    width: auto;
+    height: 340px;
+    padding-top: 5px;
+  }
+
+  /*----------------------------
+    /*-------------pie de pagina--
+    /*-----------------------------*/
+  .footer-seccion-contacto h5,
+  #contenedor-btn-sociales h5 {
+    text-decoration: underline;
+    font-size: 16px;
+  }
+
+  .footer-seccion-contacto .container a,
+  .footer-seccion-contacto p {
+    margin-top: 10px;
+    font-size: 12px;
+  }
+
+  .footer-copyright {
+    font-size: 12px;
+  }
+}
