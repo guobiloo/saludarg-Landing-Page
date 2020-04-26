@@ -9,25 +9,24 @@ Proyecto de landing page (solo frontend) realizado para el equipo de emprendedor
 https://www.youtube.com/watch?v=D2i_CuUc3CM
 
 ## Tecnologías utilizadas
+* HTML
+* CSS
+* Javascript
+* Materialize CSS (framework de estilos)
 
-*HTML
-*CSS
-*Javascript
-*Materialize CSS (framework de estilos)
-
-# Ejecución y visualización
+## Ejecución y visualización
 
 Descargue la carpeta de proyecto y ejecute el archivo llamado “index.html” para visualizar
 
 ## contacto
 
 Ante cualquier duda, consulte por mail:
-*joa_gzb@hotmail.com
-*joa.gzb@gmail.com
+* joa_gzb@hotmail.com
+* joa.gzb@gmail.com
 
 ## redes sociales
 
-\*linkedin: https://www.linkedin.com/in/joaquin-gonzalez-budino/
+* linkedin: https://www.linkedin.com/in/joaquin-gonzalez-budino/
 
 ## licencia
 
