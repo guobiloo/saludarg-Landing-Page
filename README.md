@@ -20,13 +20,7 @@ Descargue la carpeta de proyecto y ejecute el archivo llamado “index.html” p
 
 ## contacto
 
-Ante cualquier duda, consulte por mail:
-* joa_gzb@hotmail.com
-* joa.gzb@gmail.com
-
-## redes sociales
-
-* linkedin: https://www.linkedin.com/in/joaquin-gonzalez-budino/
+* [linkedin](https://www.linkedin.com/in/joaquin-gonzalez-budino/)
 
 ## licencia
 
