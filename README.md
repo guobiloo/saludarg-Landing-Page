@@ -10,8 +10,8 @@
 - Materialize CSS (framework de estilos)
 
 ## Ejecución y visualización
-Podrá visualizar la vista de la página web en el siguiente link al archivo dentro de este repositorio:
-[visualizar página](https://github.com/guobiloo/assets/docs/saludarg_landing.pdf)
+Podrá visualizar la vista de la página web en mi página web personal de portafolio en el siguiente enlace
+- [sitio web personal](https://guobiloo.github.io/Saludarg-single-page-website/)
 
 Si desea ejecutar y visualizar la página, descargue la carpeta de proyecto y ejecute el archivo llamado “index.html” para visualizar
 
