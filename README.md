@@ -1,10 +1,6 @@
 # saludarg Landing Page
 
-Proyecto de landing page (solo frontend) realizado para el equipo de emprendedores Saludarg durante el 2019 a modo de presentar la idea de una plataforma online para la busqueda de profesionales de la salud y reserva de turnos.
-
-## Visualización
-
-<embed src="https://github.com/guobiloo/assets/docs/saludarg_landing.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" />
+>Proyecto de landing page (solo frontend) realizado para el equipo de emprendedores Saludarg durante el 2019 a modo de presentar la idea de una plataforma online para la busqueda de profesionales de la salud y reserva de turnos.
 
 ## Tecnologías utilizadas
 
@@ -14,8 +10,9 @@ Proyecto de landing page (solo frontend) realizado para el equipo de emprendedor
 - Materialize CSS (framework de estilos)
 
 ## Ejecución y visualización
+Podrá visualizar la vista de la página web en mi página web de portafolio de proyectos.
 
-Descargue la carpeta de proyecto y ejecute el archivo llamado “index.html” para visualizar
+Si desea ejecutar y visualizar la página, descargue la carpeta de proyecto y ejecute el archivo llamado “index.html” para visualizar
 
 ## Contacto
 
