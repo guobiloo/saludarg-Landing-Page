@@ -2,27 +2,29 @@
 
 Proyecto de landing page (solo frontend) realizado para el equipo de emprendedores Saludarg durante el 2019 a modo de presentar la idea de una plataforma online para la busqueda de profesionales de la salud y reserva de turnos.
 
-## video de promoción
+## Visualización
 
-[![Alt text for your video](https://img.youtube.com/vi/D2i_CuUc3CM/0.jpg)](https://www.youtube.com/watch?v=D2i_CuUc3CM)
-
-https://www.youtube.com/watch?v=D2i_CuUc3CM
+<embed src="https://github.com/guobiloo/assets/docs/saludarg_landing.pdf#toolbar=0&navpanes=0&scrollbar=0" type="application/pdf" width="100%" height="600px" />
 
 ## Tecnologías utilizadas
-* HTML
-* CSS
-* Javascript
-* Materialize CSS (framework de estilos)
+
+- HTML
+- CSS
+- Javascript
+- Materialize CSS (framework de estilos)
 
 ## Ejecución y visualización
 
 Descargue la carpeta de proyecto y ejecute el archivo llamado “index.html” para visualizar
 
-## contacto
+## Contacto
 
-* [linkedin](https://www.linkedin.com/in/joaquin-gonzalez-budino/)
+- [linkedin](https://www.linkedin.com/in/joaquin-gonzalez-budino/)
+- [pagina web](https://guobiloo.github.io)
 
-## licencia
+En la página web personal podrá consultar otros trabajos que realizo y en mayor detalle.
+
+## Licencia
 
 Copyright (C) 2019 Gonzalez budinho Joaquin
 
